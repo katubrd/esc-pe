@@ -81,8 +81,9 @@ section {
 
 .logo_container {
   position: relative;
-  width: 100%;
-  top: 9vh;
+  width: 90%;
+  top: 7vh;
+  left: -5vw;
 }
 
 .logo_container > svg {
