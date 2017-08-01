@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
   margin: 0;
   padding: 0;
@@ -36,4 +38,42 @@ section {
   position: absolute;
   left: -4%;
   top: -21%;
+}
+
+.container_about {
+  position: absolute;
+  top: 19vh;
+}
+
+.game_desription {
+  font-family: 'Montserrat';
+  text-align: left;
+  margin: auto 5%;
+}
+
+.game_desription > p {
+  font-size: 2.1vh;
+  line-height: 3.3vh;
+}
+
+.game_version {
+  font-size: 1.2vh;
+}
+
+.small_txt {
+  font-size: 1.5vh;
+}
+
+.name_txt {
+  font-size: 1.9vh;
+  line-height: 2.3vh;
+}
+
+.foto_container {
+  width: 100%;
+  text-align: center;
+}
+
+.foto_container > img {
+  width: 67%;
 }
