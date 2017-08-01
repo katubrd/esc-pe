@@ -71,12 +71,14 @@ section {
 }
 
 .foto_container {
-  width: 100%;
-  text-align: center;
+  width: 50%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vh;
 }
 
 .foto_container > img {
-  width: 67%;
+  width: 100%;
 }
 
 .logo_container {
