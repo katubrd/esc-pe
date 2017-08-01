@@ -14,22 +14,22 @@ main {
   width: 100%;
   height: 100vh;
   display: grid;
-  grid-template-columns: 36% 27% 36%;
+  grid-template-columns: 34% 27% 38%;
 }
 
 section {
-  background-color: #D8E2EC;
   width: 100%;
   height: 97vh;
-  border: 1px solid black;
 }
 
 .container {
   width: 100%;
   height: 100%;
   position: relative;
-  overflow: hidden;
+}
 
+.monky_container {
+  overflow: hidden;
 }
 
 .monky_general {
@@ -42,7 +42,8 @@ section {
 
 .container_about {
   position: absolute;
-  top: 19vh;
+  top: 32vh;
+  left: -5vw;
 }
 
 .game_desription {
@@ -52,7 +53,7 @@ section {
 }
 
 .game_desription > p {
-  font-size: 2.1vh;
+  font-size: 1.7vh;
   line-height: 3.3vh;
 }
 
@@ -76,4 +77,50 @@ section {
 
 .foto_container > img {
   width: 67%;
+}
+
+.logo_container {
+  position: relative;
+  width: 100%;
+  top: 9vh;
+}
+
+.logo_container > svg {
+  position: absolute;
+  width: 85%;
+  z-index: 3;
+  left: -11vw;
+}
+
+.video_container {
+  width: 100%;
+  position: relative;
+  top: 35vh;
+}
+
+.video_container > video {
+  width: 100%;
+  position: absolute;
+}
+
+.play_game {
+  position: relative;
+  width: 100%;
+}
+
+.play_game > button {
+  position: absolute;
+  width: 15vw;
+  height: 5vh;
+  background-color: #29ABE2;
+  border: none;
+  top: 90vh;
+  left: 13vw;
+}
+
+.play_game > button > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 1.9vh;
 }
