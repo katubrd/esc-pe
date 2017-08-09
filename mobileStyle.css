@@ -1,0 +1,58 @@
+@media all and (max-width: 600px) {
+  .container {
+    grid-template-columns: none;
+    grid-template-rows: 50% 50%;
+    height: 73vh;
+  }
+  .mobileContainer {
+    height: 63vh;
+  }
+  header {
+    width: 50%;
+    top: 17vh;
+    left: 19vw;
+  }
+  header > img {
+    width: 120%;
+  }
+  .sgj{
+    width: 30%;
+    position: absolute;
+    left: 33.3vw;
+    top: 51vh;
+  }
+  .text {
+    margin-top: 3vh;
+    font-size: 2.3vh;
+    font-family: 'Catamaran', sans-serif;
+  }
+  button {
+    top: 13.7vh;
+    left: 31vw;
+    width: 33vw;
+    height: 7vh;
+    font-size: 2vh;
+  }
+  button > a {
+    font-size: 2.3vh;
+  }
+  .about {
+    margin-top: -3vh;
+    z-index: 7;
+  }
+  video {
+    left: 11.7vw;
+  }
+  .authors {
+    top: 7.9vh;
+    left: 11.7vw;
+  }
+  .apeContainer {
+    top: -45vh;
+    left: 57vw;
+    z-index: 1;
+  }
+  .apeContainer > svg {
+    width: 75%;
+  }
+}

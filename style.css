@@ -1,129 +1,124 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Ubuntu');
+
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff;
-  font-size: 100%;
-  font-family: ;
-  color: ;
-
-}
-
-main {
-  width: 100%;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 34% 27% 38%;
-}
-
-section {
-  width: 100%;
-  height: 97vh;
+  background-color: #7D7870;
 }
 
 .container {
   width: 100%;
-  height: 100%;
+  height: 87vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
   position: relative;
 }
 
-.monky_container {
-  overflow: hidden;
-}
-
-.monky_general {
-  width: 250%;
-  height: 257%;
+header {
   position: absolute;
-  left: -4%;
-  top: -21%;
+  width: 200%;
+  top: 27vh;
+  left: 27vw;
 }
 
-.container_about {
+header > img {
+  width: 21%;
+}
+
+.sgj {
   position: absolute;
-  top: 32vh;
-  left: -5vw;
+  width: 11%;
+  top: 87vh;
+  left: 68.3vw;
 }
 
-.game_desription {
-  font-family: 'Montserrat';
-  text-align: left;
-  margin: auto 5%;
+.leftContainer {
+  padding: 13%;
 }
 
-.game_desription > p {
+.rightContainer {
+  position: relative;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 3.5vh;
   font-size: 1.7vh;
-  line-height: 3.3vh;
+  z-index: 7;
 }
 
-.game_version {
-  font-size: 1.2vh;
-}
-
-.small_txt {
-  font-size: 1.5vh;
-}
-
-.name_txt {
+.text {
+  font-family: 'Ubuntu', sans-serif;
   font-size: 1.9vh;
-  line-height: 2.3vh;
+  line-height: 2.7vh;
+
 }
 
-.foto_container {
-  width: 50%;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-left: 5vh;
-}
-
-.foto_container > img {
-  width: 100%;
-}
-
-.logo_container {
-  position: relative;
-  width: 90%;
-  top: 7vh;
-  left: -5vw;
-}
-
-.logo_container > svg {
+button {
   position: absolute;
-  width: 85%;
-  z-index: 3;
-  left: -11vw;
-}
-
-.video_container {
-  width: 100%;
-  position: relative;
-  top: 35vh;
-}
-
-.video_container > video {
-  width: 100%;
-  position: absolute;
-}
-
-.play_game {
-  position: relative;
-  width: 100%;
-}
-
-.play_game > button {
+  left: 17vw;
+  top: 23vh;
   position: absolute;
   width: 15vw;
   height: 5vh;
   background-color: #29ABE2;
   border: none;
-  top: 90vh;
-  left: 13vw;
 }
 
-.play_game > button > a {
-  text-decoration: none;
-  color: #fff;
-  font-family: 'Montserrat';
-  font-size: 1.9vh;
+button > a {
+ text-decoration: none;
+ color: #fff;
+ font-family: 'Ubuntu';
+ font-size: 1.9vh;
+}
+
+.about {
+  grid-template-columns: 70% 30%;
+  height: 79vh;
+  margin-top: -15vh;
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+}
+
+video {
+  position: absolute;
+  width: 77%;
+  left: 7vw;
+}
+
+.authors {
+  position: absolute;
+  top: 23vh;
+}
+
+.rightContainer > p {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 3.5vh;
+  font-size: 1.7vh;
+}
+
+.authors > p > span {
+  font-size: 2vh;
+  letter-spacing: 0.07vw;
+}
+
+footer {
+  width: 100%;
+  height: 3vh;
+  background-color: black;
+  position: relative;
+}
+
+.apeContainer {
+  position: absolute;
+  width: 35%;
+  top: -133vh;
+  left: 67vw;
+  z-index: 1;
+}
+
+.apeContainer > svg {
+  width: 37%;
 }
